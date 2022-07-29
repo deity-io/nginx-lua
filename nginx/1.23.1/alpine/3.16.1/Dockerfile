@@ -219,6 +219,7 @@ ARG NGINX_BUILD_CONFIG="\
             --add-module=/lua-upstream-nginx-module-${VER_LUA_UPSTREAM} \
             --add-module=/headers-more-nginx-module-${VER_OPENRESTY_HEADERS} \
             --add-module=/stream-lua-nginx-module-${VER_OPENRESTY_STREAMLUA} \
+            --add-module=/njs/nginx \
 "
 ENV NGINX_BUILD_CONFIG=$NGINX_BUILD_CONFIG
 
