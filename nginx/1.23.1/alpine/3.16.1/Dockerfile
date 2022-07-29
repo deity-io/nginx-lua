@@ -258,7 +258,8 @@ ARG NGINX_BUILD_DEPS="\
         libxslt-dev \
         linux-headers \
         perl-dev \
-"
+        mercurial \
+    "
 ENV NGINX_BUILD_DEPS=$NGINX_BUILD_DEPS
 
 ####################################
