@@ -12,7 +12,6 @@ image_repo = "europe-west4-docker.pkg.dev/deity-cloud-prod/infra/nginx-lua"
 # UTILS
 # ##############################################################################
 
-
 def run_command(command, print_stdout):
     process = subprocess.Popen(
         shlex.split(command), shell=False, stdout=subprocess.PIPE
@@ -182,7 +181,6 @@ def push(nginx_ver, os_distro, os_ver):
 
     exit_code = push_images("-compat", nginx_ver, os_distro, os_ver)
     return exit_code
-
 
 # BUNDLE
 # ##############################################################################
