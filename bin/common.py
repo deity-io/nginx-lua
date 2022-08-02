@@ -7,7 +7,7 @@ import subprocess
 
 supported_os = ["almalinux", "alpine", "amazonlinux", "debian", "fedora", "ubuntu"]
 default_distro = "alpine"
-image_repo = "fabiocicerchia/nginx-lua"
+image_repo = "europe-west4-docker.pkg.dev/deity-cloud-prod/infra/nginx-lua"
 
 # UTILS
 # ##############################################################################
