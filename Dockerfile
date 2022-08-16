@@ -72,7 +72,7 @@ ENV VER_LUA_RESTY_LRUCACHE=$VER_LUA_RESTY_LRUCACHE
 
 # headers-more-nginx-module
 # https://github.com/openresty/headers-more-nginx-module/commits/master
-ARG VER_OPENRESTY_HEADERS=a4a0686605161a6777d7d612d5aef79b9e7c13e0
+ARG VER_OPENRESTY_HEADERS=bea1be3bbf6af28f6aa8cf0c01c07ee1637e2bd0
 ENV VER_OPENRESTY_HEADERS=$VER_OPENRESTY_HEADERS
 
 # lua-resty-cookie
