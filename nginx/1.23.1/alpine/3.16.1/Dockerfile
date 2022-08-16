@@ -53,7 +53,7 @@ ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH
 # lua-nginx-module
 # https://github.com/openresty/lua-nginx-module/tags
 # Production ready.
-ARG VER_LUA_NGINX_MODULE=0.10.20
+ARG VER_LUA_NGINX_MODULE=3e2a7f459353a26d9475a54661c70a6e2c8cd27e
 ENV VER_LUA_NGINX_MODULE=$VER_LUA_NGINX_MODULE
 
 # lua-resty-core
